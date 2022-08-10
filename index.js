@@ -212,13 +212,13 @@ function game(user, computer){
   }else if(user === 'scissors' && computer === 'paper'){
     return `you win!`;
   }else if(user === 'paper' && computer === 'rock'){
-    return `you win`;
+    return `you win!`;
   }else{
     return `you lose!`
   }
 }
 
-console.log (game('paper', computer));
+console.log (game('rock', computer));
 
 
 
