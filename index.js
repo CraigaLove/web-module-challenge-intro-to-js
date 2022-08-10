@@ -160,12 +160,12 @@ function hungryDog(weight, age){
     return weight * 0.04;
   }else if(age >= 1 && weight >= 10 && weight <= 15){
     return weight * 0.03;
-  }else if(age >= 1 ** weight > 15){
+  }else if(age >= 1 && weight > 15){
     return weight * 0.02;
   }else if(age < 1 && age >= 0.583){
     return weight * 0.04;
   }else if(age < 0.583 && age >= 0.333){
-    return weight * 0.04;
+    return weight * 0.05;
   }else if(age < 0.333 && age >= 0.166){
     return weight * 0.1;
   }
@@ -233,10 +233,11 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(km){
+  return km*0.621371;
 }
 
+console.log(miles(7));
 
 
 //Task 5b - Feet to CM
@@ -247,8 +248,8 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(CM){
+  return CM*30.48
 }
 
 
