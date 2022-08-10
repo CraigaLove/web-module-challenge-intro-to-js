@@ -20,6 +20,14 @@ Do the following:
    HINT: no function required
 */
 
+const votingAge = 18;
+
+if(votingAge >= 18) {
+  console.log('true')
+} else {
+  console.log('false');
+}
+
 
 
 /*
@@ -34,8 +42,16 @@ Do the following:
    HINT: no function required
 */
 
+let firstThing = '40';
+let secondThing = '50';
 
+if(secondThing === '50'){
+  firstThing = '60';
+}else{
+  firstThing = '40';
+}
 
+console.log(firstThing);
 
 
 /*
@@ -49,7 +65,9 @@ Do the following:
    HINT: look up the Number method
 */
 
+const string1 = '1999';
 
+console.log(parseInt(string1));
 
 
 /*
