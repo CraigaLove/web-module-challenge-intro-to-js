@@ -249,10 +249,10 @@ Using the feet function below do the following:
 */
 
 function feet(CM){
-  return CM*30.48
+  return CM/30.48
 }
 
-
+console.log(feet(42));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
